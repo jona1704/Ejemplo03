@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lavender;
+}
+
+.seccion1{
+    height: auto;
+    width: 500px;
+    padding: 10px;
+    background-color: lightskyblue;
+    margin: 20px auto; /* Contenido al centro */
+}
+
+/* Div es de tipo block */
+.contenedor{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;     /* La misma altura del contenedor */
+}
+
+.caja1{
+    background-color: magenta;
+    float: left;
+}
+
+.caja2{
+    background-color:mediumspringgreen;
+    float: right;
+}
+
+.caja3{
+    background-color:navy;
+    color: white;
+    clear: both;
+}
+
+.seccion2{
+    height: 390px;
+    width: 500px;
+    padding: 10px;
+    background-color: lightskyblue;
+    margin: 20px auto; /* Contenido al centro */
+}
+
+.contenedor2_0{
+    background-color: orange;
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.contenedor2_0 p{  /* Propiedades para el párrafo del contenedor2_0 */
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 78px;  /*  20% de 390px */
+}
+
+.contenedor2_1{
+    width: 49%;
+    height: 55%;
+    background-color: magenta;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.contenedor2_2{
+    width: 49%;
+    height: 55%;
+    background-color:mediumspringgreen;
+    margin-bottom: 10px;
+    float: right;
+}
+
+/* Propiedades para el párrafo del contenedor2_1 y
+   contenedor2_2 */
+.contenedor2_1 p, .contenedor2_2 p{
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 175px;  /*  45% de 390px */
+}
+
+.contenedor2_3{
+    height: 19%;
+    background-color: navy;
+    color: white;
+    clear: both;
+}
+
+.contenedor2_3 p{  /* Propiedades para el párrafo contenedor2_3 */
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;  /*  15% de 390px */
+}
+
